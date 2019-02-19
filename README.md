@@ -4,9 +4,9 @@
 
 ## Author ##
 
-咚咚呛
+原作者：咚咚呛。https://github.com/grayddq/PublicMonitors.git
 
-如有其他建议，可联系微信280495355，在此基础上修改了邮件乱码，邮件端口，多IP发送有问题等
+我在此基础上修改了邮件乱码，邮件端口，多IP发送有问题等。
 
 ## Support ##
 
@@ -29,6 +29,7 @@
 ## Test Environment ##
 
 >CentOS Linux release 7.3.1611 (Core)
+
 >python 2.7
 
 ## Dependencies ##
@@ -48,7 +49,7 @@
 >
 > cp bin/masscan /bin/masscan
 >
-> git clone https://github.com/grayddq/PublicMonitors.git
+> git clone https://github.com/xiaozhiqi2000/PublicMonitors.git
 > 
 > sudo pip install -U pip
 >
@@ -94,6 +95,7 @@
 	target_email = 
 	#smtp的server名称，如163邮箱则填写smtp.163.com
 	smtp_server = 
+        smtp_port = 25
 
 ## Log ##
 
